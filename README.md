@@ -3,11 +3,17 @@
 ## Datos de la Asignatura
 - **Institución:** Institución Universitaria Pascual Bravo
 - **Facultad:** Facultad de Ingeniería — Tecnología en Desarrollo de Software
-- **Asignatura:** Bases de Datos II / Bases de Datos Avanzadas
+- **Asignatura:** Bases de Datos I
+- **Docente:** Oralia Cortes Grajales
 - **Año:** 2026
 
 ## Integrantes del Equipo
-- **Oralia Cortés Grajales**
+- **Luis Rojas Cano**
+
+- **Emily Quintero Rivera**
+
+- **Sofia Hidalgo Córdoba**
+
 - **Jeiner Andrés Mosquera Aguirre**
 
 ---
@@ -15,7 +21,7 @@
 ## Descripción del Proyecto
 Este repositorio contiene el diseño, modelado e implementación técnica de una **arquitectura de base de datos híbrida (Relacional + NoSQL)** en **PostgreSQL 18** (`red_social_hibrida`) para la **Red Social Estudiantil Pascualina**.
 
-El sistema integra la consistencia transaccional del modelo relacional (`estudiante`) con la flexibilidad de almacenamiento semiestructurado mediante el tipo de dato binario **`JSONB`**, índices invertidos **`GIN`** para consultas analíticas de alto rendimiento, y **particionamiento declarativo por rango de tiempo (`PARTITION BY RANGE`)** orientado a flujos masivos de telemetría de sensores **IoT** en el campus universitario.
+El sistema integra la consistencia transaccional del modelo relacional (`estudiante`) con la flexibilidad de almacenamiento semiestructurado mediante el tipo de dato binario JSONB, índices invertidos GIN para consultas analíticas de alto rendimiento, y particionamiento declarativo por rango de tiempo (PARTITION BY RANGE) orientado a flujos masivos de telemetría de sensores IoT en el campus universitario.
 
 ---
 
